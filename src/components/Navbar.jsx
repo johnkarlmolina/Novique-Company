@@ -42,7 +42,7 @@ export default function Navbar() {
         visible || mobileOpen ? 'translate-y-0' : '-translate-y-full'
       }`}
     >
-      <nav className="flex items-center justify-between border-b border-slate-200 bg-white/90 px-6 py-3 backdrop-blur-md sm:px-10 lg:px-16">
+      <nav className="flex items-center justify-between border-b border-slate-200 bg-blue/90 px-6 py-3 backdrop-blur-md sm:px-10 lg:px-16">
         <div className="flex items-center gap-8">
           <NavLink to="/">
             <img src="/logo-icon.png" alt="Novique" className="h-10 w-10 object-contain" />
